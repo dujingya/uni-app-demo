@@ -1,0 +1,48 @@
+{
+	"pages": [
+		{
+			"path": "pages/news/index",
+			"style": {}
+		},
+		{
+			"path": "pages/ucenter/index",
+			"style": {}
+		},
+		{
+			"path": "pages/detail/index",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "新闻资讯",
+		"navigationBarBackgroundColor": "#2F85FC",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"fontSize":"14px",
+		"height":"44px",
+		"selectedColor":"#007AFF",
+		"position":"bottom",
+		"list":[
+			{
+				"pagePath":"pages/news/index",
+				"text":"组件"
+			},
+			{
+				"pagePath":"pages/detail/index",
+				"text":"API"
+			},
+			{
+				"pagePath":"pages/ucenter/index",
+				"text":"API"
+			}
+		]
+	}
+}
